@@ -15,7 +15,7 @@ What is mean total number of steps taken per day?
                 hist(stepsbyday$steps) 
 ```
 
-![](figure/unnamed-chunk-2-1.png) 
+![](figure/unnamed-chunk-1-1.png) 
 
 2. Calculate and report the mean and median total steps per day
 
@@ -55,7 +55,7 @@ What is the average daily activity pattern?
                 axis(1, at = meanstepsbyinterval$interval, labels = meanstepsbyinterval$interval)
 ```
 
-![](figure/unnamed-chunk-7-1.png) 
+![](figure/unnamed-chunk-1-2.png) 
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -141,7 +141,7 @@ The number of missing values in the dataset is
                 hist(stepsbyday2$steps, ylim = c(0,40))
 ```
 
-![](figure/unnamed-chunk-15-1.png) 
+![](figure/unnamed-chunk-1-3.png) 
 
 Calculate and report the mean and median total steps per day
 
@@ -211,7 +211,7 @@ and the average number of steps taken, averaged across all weekday days or weeke
                 axis(1, at = meanstepsbyinterval$interval, labels = meanstepsbyinterval$interval)
 ```
 
-![](figure/unnamed-chunk-21-1.png) 
+![](figure/unnamed-chunk-1-4.png) 
 
 *As messy as these plots are due to running out of time, you can still tel that: there are more steps 
 taken on weekdays, and that the number of steps taken is higher later in the day on weekends than on                 
